@@ -1,5 +1,6 @@
 import "./styles.css";
 import ShoppingList from "./ShoppingList";
+import Connection from "./Connection";
 import Home from "./Home";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
@@ -26,6 +27,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shopping-list" element={<ShoppingList />} />
+          <Route path="/Connection" element={<Connection />} />
         </Routes>
       </Box>
     </div>
