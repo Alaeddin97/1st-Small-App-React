@@ -8,7 +8,10 @@ class Home extends React.Component {
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <Link to="/shopping-list">Shopping list</Link>
         <Link to="/Connection">Connection</Link>
-        <Link to="/DeppartmentsList">DeppartmentsList</Link>
+        <Link to="/DeppartmentsList">DepartmentsList</Link>
+        <Link to="/MoviesList">MoviesList</Link>
+        <Link to="/MeteoList">MeteoList</Link>
+        <Link to="/CoursSpring">CoursSpring</Link>
       </Box>
     );
   }

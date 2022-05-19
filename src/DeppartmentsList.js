@@ -7,7 +7,6 @@ class DeppartmentsList extends React.Component {
     this.state = {
       inputSearchValue: "",
       click: false,
-      depValue: "",
       items: [],
       DataisLoaded: false
     };
@@ -44,9 +43,9 @@ class DeppartmentsList extends React.Component {
       items,
       DataisLoaded,
       inputSearchValue,
-      depValue,
       click
     } = this.state;
+    
     const departmentList = items.filter(
       (item) => item.nom.toLowerCase().indexOf(inputSearchValue) !== -1
     );
@@ -76,11 +75,8 @@ class DeppartmentsList extends React.Component {
                   <th>{item.code}</th>
                   <th> {item.codeRegion}</th>
                   <th
-                    value={depValue}
                     onClick={() => this.handleClickInput(item)}
                   >
-                    {" "}
-                    {/**La valeur passée */}
                     {item.nom}
                   </th>
                 </tr>

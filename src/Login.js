@@ -26,7 +26,7 @@ class Login extends React.Component {
       <div className="Login">
         <form className="loginForm">
           <div className="loginForm-inputBlock">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input
               id="email"
               type="text"

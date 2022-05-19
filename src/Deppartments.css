@@ -3,3 +3,79 @@
 .tab2 {
   text-align: left;
 }
+.image{
+  height: 300px;
+  width: 200px;
+}
+.titre{
+  color: red;
+  font-weight: bold;
+  size: 5rem;
+}
+
+.float-container {
+  padding: 1px;
+  width: 60%;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+}  
+h1{
+  background-color: midnightblue;
+  font-weight: bold;
+  color:white;
+  width: 700px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 10px 5px 5px blueviolet;
+  padding-left: 10px;
+}
+#temperature{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: midnightblue;
+  padding-bottom: 0;
+  margin:0;
+}
+#wnd_dir{
+  font-size: 1rem;
+  font-weight: bold;
+  color: midnightblue;
+
+}
+#wnd_spd{
+  font-size: 1rem;
+  font-weight: bold;
+  color: midnightblue;
+}
+.today {
+  margin-left: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+.today:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+#tmin{
+  font-size: 1rem;
+  font-weight: bold;
+  color: midnightblue;
+}
+#cond{
+font-size: 2rem;
+color:red;
+margin-top: 0rem;
+}
